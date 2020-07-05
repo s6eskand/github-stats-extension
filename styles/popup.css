@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #3d393a;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 500px;
+    max-width: 500px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: azure;
+}
+
+p {
+    font-size: 16px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#github_username {
+    text-align: center;
+    width: 200px;
+    font-style: italic;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
