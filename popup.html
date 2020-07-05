@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Github Insights</title>
+    <link rel="stylesheet" href="styles/popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+<div class="container main">
+    <div class="description">
+        <h4>Welcome to Github Statistics</h4> <br>
+        <p>Gain insights on users by simply navigating to their github profile, confirming their username, and hitting run!</p> <br>
+    </div>
+    <div class="action">
+        <p id="github_username"></p>
+        <button id="get_stats_btn" class="waves-effect waves-light btn"><i class="material-icons small left">insert_chart</i>lets get started!</button>
+    </div>
+    <div id="user_info">
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./node_modules/axios/dist/axios.min.js"></script>
+<script src="scripts/popup.js" type="text/javascript" async></script>
+</body>
+</html>
