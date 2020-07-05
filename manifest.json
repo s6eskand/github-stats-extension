@@ -1,0 +1,22 @@
+{
+  "name": "Github User Statistics",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["https://github.com/*"]
+    }
+  ],
+  "icons": {
+    "16": "media/images/octocat.png"
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Github User Statistics"
+  }
+}
